@@ -1,0 +1,68 @@
+.cs_contact_section {
+    padding: 80px 0;
+    background: #f7f9fc;
+  
+    .cs_section_title {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #132573;
+    }
+  
+    p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 40px;
+      max-width: 700px;
+    }
+  
+    .cs_contact_box {
+      background: #fff;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+      transition: all 0.3s ease;
+      height: 100%;
+  
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+      }
+  
+      h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 35px;
+        color: #132573;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+  
+        i {
+          color: #09bbaf;
+          font-size: 27px;
+        }
+      }
+  
+      p {
+        font-size: 15px;
+        color: #444;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+  
+        i {
+          color: #09bbaf;
+          min-width: 18px;
+          font-size: 27px;
+        }
+      }
+  
+      hr {
+        margin: 15px 0;
+        border: none;
+        border-top: 1px solid #eee;
+      }
+    }
+  }
