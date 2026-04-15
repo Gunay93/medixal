@@ -1,0 +1,74 @@
+.patient_stories_section {
+    padding: 80px 0;
+    background: #F0F4F8;
+  
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+  
+    .section_header {
+      text-align: center;
+      margin-bottom: 30px;
+  
+      h1 {
+        font-size: 36px;
+        color: #1A3A5C;
+      }
+  
+      p {
+        color: #32363a;
+        margin-top: 8px;
+      }
+    }
+  
+    .info_box {
+      background: #fff;
+      border-left: 5px solid #00796B;
+      padding: 15px 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      color: #1A3A5C;
+  
+      i {
+        color: #00796B;
+        margin-right: 6px;
+      }
+    }
+  
+    .stories_grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  
+    .story_card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+      border-top: 4px solid #1565C0;
+  
+      h3 {
+        font-size: 18px;
+        color: #1A3A5C;
+        margin-bottom: 10px;
+  
+        i {
+          color: #32363a;
+          margin-right: 6px;
+        }
+      }
+  
+      p {
+        font-size: 14px;
+        color: #444;
+        line-height: 1.5;
+      }
+  
+      &.highlight {
+        border-top: 4px solid #C62828;
+        background: #fff5f5;
+      }
+    }
+  }

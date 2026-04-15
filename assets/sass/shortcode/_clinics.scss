@@ -1,0 +1,68 @@
+$primary: #1aa6b7;
+$dark: #0f2a2e;
+
+.cs_clinic {
+
+  .section-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: $dark;
+    letter-spacing: 0.5px;
+  }
+
+  .section-subtitle {
+    color: #6c757d;
+    font-size: 15px;
+  }
+
+  .clinic-card {
+    border-radius: 18px !important;
+    transition: 0.35s ease;
+    overflow: hidden;
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+    }
+  }
+
+  .clinic-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+
+    i {
+      font-size: 18px;
+      color: $primary;
+      background: rgba($primary, 0.12);
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    h5 {
+      font-size: 17px;
+      font-weight: 700;
+      margin: 0;
+      color: $dark;
+    }
+  }
+
+  .clinic-info {
+
+    p {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      margin-bottom: 10px;
+      color: #555;
+
+      i {
+        color: $primary;
+        width: 18px;
+        text-align: center;
+      }
+    }
+  }
+}
