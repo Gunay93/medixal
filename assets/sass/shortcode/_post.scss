@@ -93,6 +93,7 @@
 
   .cs_post_meta {
     margin-bottom: 20px;
+
     @media (max-width: 991px) {
       margin-bottom: 10px;
     }
@@ -100,6 +101,11 @@
 
   .cs_post_title {
     margin-bottom: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
     @media (max-width: 991px) {
       margin-bottom: 15px;
     }
@@ -258,6 +264,7 @@
     }
   }
 }
+
 .cs_btn_group.cs_style_1 {
   display: flex;
   align-items: center;
